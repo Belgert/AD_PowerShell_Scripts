@@ -40,3 +40,5 @@ ForEach ($AD in $ADgroups) {
 
 ## - Export Report 
 $data | Export-CSV -Path "$save\AD_GroupMember $((Get-Date -format MM-dd-yyyy).ToString()).csv" -NoTypeInformation  
+
+## - RR
